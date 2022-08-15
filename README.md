@@ -1,4 +1,4 @@
-# Crypto_Investments_Analysis
+# Crypto Investments Analysis
 
 The purpose of this project is to cluster the cryptocurrencies from data in a CSV file by their performance in different time periods. 
 
@@ -21,7 +21,7 @@ A new DataFrame was formed using the new PCA data.
 
 Using the new PCA data, the best k-value was found by forming the Elbow Curve.
 
-Oddly enough, the k-value was found to be 5, similar to the k-value of the original data.
+Oddly enough, the k-value was found to be 4, similar to the k-value of the original data.
 
 Using the K-Value, the K-means model was initialized, fitted with the PCA data and predicted the clusters for grouping the cryptocurrencies by using the PCA data.
 
