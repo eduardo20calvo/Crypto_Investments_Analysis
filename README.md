@@ -10,7 +10,7 @@ By forming the Elbow Curve, the best k-value was found to cluster the original d
 
 Using the K-Value, the K-means model was initialized, fitted with the original data and predicted the clusters for grouping the cryptocurrencies by using the original data.
 
-An scatter hvplot was then created to visualize the segmentation of the cryptocurrencies from the original data into clusters.
+A scatter hvplot was then created to visualize the segmentation of the cryptocurrencies from the original data into clusters.
 
 Wondering how the results would differ using the PCA method to reduce the features of the original data, a PCA model was created.
 
@@ -25,7 +25,7 @@ Oddly enough, the k-value was found to be 4, similar to the k-value of the origi
 
 Using the K-Value, the K-means model was initialized, fitted with the PCA data and predicted the clusters for grouping the cryptocurrencies by using the PCA data.
 
-An scatter hvplot was then created to visualize the segmentation of the cryptocurrencies from the PCA data into clusters.
+A scatter hvplot was then created to visualize the segmentation of the cryptocurrencies from the PCA data into clusters.
 
 Then the two Elbow Curves and the two scatter hvplots were compared side by side respectively.
 
